@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -12,6 +12,11 @@
 
   <ItemGroup>
     <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Course.TokenBasedAuth.Service\Course.TokenBasedAuth.Service.csproj" />
+    <ProjectReference Include="..\Course.TokenBasedAuth.SharedLibrary\Course.TokenBasedAuth.SharedLibrary.csproj" />
   </ItemGroup>
 
 </Project>

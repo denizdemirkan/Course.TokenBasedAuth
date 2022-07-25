@@ -3,13 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.TokenBasedAuth.AuthServerAPI", "Course.TokenBasedAuth\Course.TokenBasedAuth.AuthServerAPI.csproj", "{9ECADFD7-DC8D-405A-9408-B8CE3E0004B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.TokenBasedAuth.AuthServerAPI", "Course.TokenBasedAuth\Course.TokenBasedAuth.AuthServerAPI.csproj", "{9ECADFD7-DC8D-405A-9408-B8CE3E0004B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.TokenBasedAuth.Core", "Course.TokenBasedAuth.Core\Course.TokenBasedAuth.Core.csproj", "{642A9356-5CF1-4733-A191-5F3976799E35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.TokenBasedAuth.Core", "Course.TokenBasedAuth.Core\Course.TokenBasedAuth.Core.csproj", "{642A9356-5CF1-4733-A191-5F3976799E35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.TokenBasedAuth.Repository", "Course.TokenBasedAuth.Repository\Course.TokenBasedAuth.Repository.csproj", "{B13A8818-0219-482F-BB70-D2E58E0C2E91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.TokenBasedAuth.DataAccess", "Course.TokenBasedAuth.Repository\Course.TokenBasedAuth.DataAccess.csproj", "{B13A8818-0219-482F-BB70-D2E58E0C2E91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.TokenBasedAuth.Service", "Course.TokenBasedAuth.Service\Course.TokenBasedAuth.Service.csproj", "{84F40A7D-5063-461D-82D7-3880EC5E3422}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course.TokenBasedAuth.Service", "Course.TokenBasedAuth.Service\Course.TokenBasedAuth.Service.csproj", "{84F40A7D-5063-461D-82D7-3880EC5E3422}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.TokenBasedAuth.Entities", "Course.TokenBasedAuth.Entities\Course.TokenBasedAuth.Entities.csproj", "{D44BCBAB-2C64-4424-B0CD-DFD7AE1B919F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalApp1.API", "ExternalApp1.API\ExternalApp1.API.csproj", "{DFAEFBF7-AEEE-4F29-9FC7-41C4FA5EB78F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalApp2.API", "ExternalApp2.API\ExternalApp2.API.csproj", "{83813E83-0294-414A-A8E2-FF75461950E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalApp3.API", "ExternalApp3.API\ExternalApp3.API.csproj", "{17F6B4DD-003C-4271-952D-596D459385E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Course.TokenBasedAuth.SharedLibrary", "Course.TokenBasedAuth.SharedLibrary\Course.TokenBasedAuth.SharedLibrary.csproj", "{3BC675DA-F1A2-409A-80B6-FDB475F6C624}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +43,26 @@ Global
 		{84F40A7D-5063-461D-82D7-3880EC5E3422}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84F40A7D-5063-461D-82D7-3880EC5E3422}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84F40A7D-5063-461D-82D7-3880EC5E3422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D44BCBAB-2C64-4424-B0CD-DFD7AE1B919F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44BCBAB-2C64-4424-B0CD-DFD7AE1B919F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44BCBAB-2C64-4424-B0CD-DFD7AE1B919F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44BCBAB-2C64-4424-B0CD-DFD7AE1B919F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFAEFBF7-AEEE-4F29-9FC7-41C4FA5EB78F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAEFBF7-AEEE-4F29-9FC7-41C4FA5EB78F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAEFBF7-AEEE-4F29-9FC7-41C4FA5EB78F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAEFBF7-AEEE-4F29-9FC7-41C4FA5EB78F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83813E83-0294-414A-A8E2-FF75461950E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83813E83-0294-414A-A8E2-FF75461950E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83813E83-0294-414A-A8E2-FF75461950E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83813E83-0294-414A-A8E2-FF75461950E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17F6B4DD-003C-4271-952D-596D459385E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17F6B4DD-003C-4271-952D-596D459385E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17F6B4DD-003C-4271-952D-596D459385E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17F6B4DD-003C-4271-952D-596D459385E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BC675DA-F1A2-409A-80B6-FDB475F6C624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BC675DA-F1A2-409A-80B6-FDB475F6C624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BC675DA-F1A2-409A-80B6-FDB475F6C624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BC675DA-F1A2-409A-80B6-FDB475F6C624}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
