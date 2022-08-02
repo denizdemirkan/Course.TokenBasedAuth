@@ -1,4 +1,5 @@
 ﻿using Course.TokenBasedAuth.Core.Entities;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,12 +8,8 @@ using System.Threading.Tasks;
 
 namespace Course.TokenBasedAuth.Entities.Entities
 {
-    public class UserRefreshToken : IEntity
+    public class UserApp : IdentityUser, IEntity
     {
-        public int UserId { get; set; }
 
-        public string RefreshToken { get; set; }
-
-        public DateTime RefrashTokenExpiration{ get; set; }
     }
 }

@@ -11,7 +11,7 @@ namespace Course.TokenBasedAuth.SharedLibrary.DTOs
         public int StatusCode { get; set; }
 
         [JsonIgnore]
-        // JsonIgnore for not to open this property to the cliend and keep it for internal use.
+        // JsonIgnore for not to open this property to the client and keep it for internal use only.
         public bool IsSuccessful { get; set; }
 
         public static ResponceDTO<T> Success(T data, int statusCode)

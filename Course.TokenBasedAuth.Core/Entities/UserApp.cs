@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Course.TokenBasedAuth.Entities.Entities
+namespace Course.TokenBasedAuth.Core.Entities
 {
-    public class User : IdentityUser, IEntity
+    public class UserApp : IdentityUser, IEntity
     {
 
     }

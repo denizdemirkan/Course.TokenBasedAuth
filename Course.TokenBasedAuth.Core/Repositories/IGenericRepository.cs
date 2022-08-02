@@ -14,6 +14,5 @@ namespace Course.TokenBasedAuth.Core.Repositories
         Task CreateAsync(TEntity entity);
         void Remove(TEntity entity);
         TEntity Update(TEntity entity);
-
     }
 }
