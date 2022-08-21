@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Course.TokenBasedAuth.Core.Entities
 {
-    public class UserApp : IdentityUser, IEntity
+    public class User : IdentityUser, IEntity
     {
 
     }

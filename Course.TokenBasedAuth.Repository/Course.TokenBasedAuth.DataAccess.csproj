@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Course.TokenBasedAuth.Core\Course.TokenBasedAuth.Core.csproj" />
+  </ItemGroup>
+
 </Project>
