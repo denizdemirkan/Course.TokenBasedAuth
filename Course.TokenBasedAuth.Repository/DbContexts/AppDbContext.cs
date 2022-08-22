@@ -23,6 +23,9 @@ namespace Course.TokenBasedAuth.DataAccess.DbContexts
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            // Search for IEntityTypeConfiguration implementations in an assembly that is defined.
+            builder.ApplyConfigurationsFromAssembly(GetType().Assembly);
+
             base.OnModelCreating(builder);
         }
 

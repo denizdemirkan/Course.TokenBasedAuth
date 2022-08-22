@@ -10,7 +10,7 @@ namespace Course.TokenBasedAuth.Core.Repositories
     public interface IGenericRepository<TEntity> where TEntity : class, IEntity, new()
     {
         Task<TEntity> GetByIdAsync(int Id);
-        Task<IQueryable<TEntity>> GetAllAsync();
+        Task<IEnumerable<TEntity>> GetAllAsync();
         Task CreateAsync(TEntity entity);
         void Remove(TEntity entity);
         TEntity Update(TEntity entity);

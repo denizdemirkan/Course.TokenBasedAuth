@@ -17,8 +17,6 @@ namespace Course.TokenBasedAuth.DataAccess.Configurations
             builder.Property(x => x.Name).IsRequired().HasMaxLength(100);
             builder.Property(x => x.StockAmount).IsRequired();
             builder.Property(x => x.Price).IsRequired().HasColumnType("decimal(18,2)");
-            builder.Property(x => x.)
-
         }
     }
 }
